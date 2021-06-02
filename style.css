@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    background-image: radial-gradient(red,blue);
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+    background-color:darkviolet;
+    text-decoration: underline;
+}
+
+.line {
+    height: 6px;
+    background-color:black;
+    width: 290px;
+    margin: 8px auto;
+}
+
+.link:hover {
+    font-size: 25px;
+    text-decoration: underline;
+    background-image: linear-gradient(lightblue,coral)
+}
+
+.menu {
+    position: fixed;
+    background-color:cornflowerblue;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.link {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.link:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+.tenor-gif-embed{
+    height: 500px;
+    width: 500px
+}
+
+.container{
+    text-align: center;
+}
+
+#myCarousel{
+    background-color:cornflowerblue;
+}
+
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color:aqua;
+    font-size: 20px;
+}
+
+img{
+    width: 350px;
+    height: 300px;
+}
+
+html{
+    scroll-behavior:smooth;
+}
